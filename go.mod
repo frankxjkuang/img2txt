@@ -1,3 +1,3 @@
-module img2txt
+module github.com/frankxjkuang/img2txt
 
 go 1.18
