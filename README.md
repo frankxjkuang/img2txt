@@ -4,8 +4,12 @@ Convert  GIF, JP(E)G, or PNG image to text. Not very useful, but pretty cool.
 # quick start
 
 ``` go
-img2txt := NewImg2txt()
-img2txt.SetPath("./look.png").SetStep(2).SetScale(3).PrintTxt()
+// go get github.com/frankxjkuang/img2txt
+
+import "github.com/frankxjkuang/img2txt/src/img2txt"
+
+i2t := img2txt.NewImg2txt()
+i2t.SetPath("./look.png").PrintTxt()
 ```
 
 ![look](./src/img2txt/look.png)
